@@ -1,0 +1,12 @@
+TYPO3:
+  Neos:
+    modules:
+      management:
+        label: 'Management'
+        submodules:
+          content:
+            label: 'Content Management'
+            controller: '\Famelo\ContentManagement\Controller\ContentController'
+            defaultController: 'ContentList'
+            description: 'This module contains the overview of all elements within the current workspace and it enables to continue the review and publishing workflow for them.'
+            icon: 'resource://TYPO3.Neos/Public/Images/Icons/Orange/layers_1_icon-24.png'
